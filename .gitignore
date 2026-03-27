@@ -1,0 +1,47 @@
+# 🔥 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔐 Environment variables
+.env
+
+# 📦 Virtual environments
+venv/
+env/
+detectron2_env/
+
+# 📊 Jupyter
+.ipynb_checkpoints/
+
+# 🧠 ML / RAG data (important)
+data/raw/
+data/processed/
+
+# 🗂️ Vector DB (FAISS)
+*.faiss
+*.pkl
+
+# 🧪 Logs
+logs/
+*.log
+
+# 🧾 OS files
+.DS_Store
+Thumbs.db
+
+# 🧑‍💻 VS Code
+.vscode/
+
+# 🐍 Python packaging
+build/
+dist/
+*.egg-info/
+
+# 🔑 Secrets / keys
+*.pem
+*.key
+
+# 🧠 Model cache
+.cache/
