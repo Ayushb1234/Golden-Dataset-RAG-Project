@@ -1,8 +1,6 @@
-from langchain.embeddings import OpenAIEmbeddings
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 def get_embeddings():
-    return OpenAIEmbeddings()
+    return HuggingFaceEmbeddings(
+        model_name="all-MiniLM-L6-v2"
+    )

@@ -1,0 +1,32 @@
+[
+  {
+    "question": "How does backpropagation update weights in a neural network?",
+    "answer": "Backpropagation computes gradients of the loss function using the chain rule and updates weights by moving in the direction that minimizes the loss, typically via gradient descent.",
+    "source": "aircAruvnKk | 210.0",
+    "distractor": "May retrieve general training explanation or forward pass instead of gradient-based weight updates."
+  },
+  {
+    "question": "Why are activation functions necessary in neural networks?",
+    "answer": "Activation functions introduce non-linearity, allowing neural networks to learn complex patterns beyond simple linear relationships.",
+    "source": "wjZofJX0v4M | 120.0",
+    "distractor": "May retrieve neuron analogy or linear model explanation instead of non-linearity reasoning."
+  },
+  {
+    "question": "How does gradient descent minimize the loss function?",
+    "answer": "Gradient descent iteratively updates parameters by moving in the direction of the negative gradient, reducing the loss step by step.",
+    "source": "aircAruvnKk | 300.0",
+    "distractor": "May retrieve general optimization discussion without mentioning gradients explicitly."
+  },
+  {
+    "question": "What problem does the attention mechanism solve in deep learning?",
+    "answer": "The attention mechanism allows models to focus on the most relevant parts of the input, overcoming limitations of fixed-length context in sequence models.",
+    "source": "C6YtPJxNULA | 250.0",
+    "distractor": "May retrieve general neural network concepts instead of sequence modeling improvements."
+  },
+  {
+    "question": "How are neural networks inspired by biological neurons but different in implementation?",
+    "answer": "Neural networks are inspired by biological neurons but are simplified mathematical models using weighted sums and activation functions rather than biological processes.",
+    "source": "aircAruvnKk | 45.0",
+    "distractor": "May retrieve biological neuron explanations instead of computational differences."
+  }
+]
